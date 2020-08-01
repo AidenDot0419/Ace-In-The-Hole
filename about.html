@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<!--
+
+Assignment Name: Template, About Page
+File Name: about.html
+Date: 07/27/2020
+-->
+
+
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="author" content="Aiden">
+    <title>About</title>
+    <link rel="stylesheet" href="css/template.css">
+    
+</head>
+
+<body>
+
+ <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active"></a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="registration.html">Registration</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<header class="header">
+                    
+<!--h1 Text-->
+<h1>About The Company</h1>
+           
+</header>
+    
+<!--Large hero image on all displays-->    
+<div id="heroImage">
+    <img src="images/running.jpeg" alt="competition" height= "520" width= "100%">
+</div>
+
+<main>
+    
+<!--h2 Text-->
+<h2>Additional Information</h2>
+    <br>
+<!--Paragraph 'About The Company'-->    
+<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+</p>
+    
+<br>
+ 
+
+<!--h2 Text-->    
+<h2>Text</h2>
+
+<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    
+     
+      
+
+
+
+</main>
+    
+<footer>
+    
+    
+<!--Text for "contact" div CLASS-->
+<div class="contact">
+    Company Name<br>
+    Company Address<br>
+    Company Address, Cont.<br>
+<br>
+Company Phone<br>
+<br>
+</div>
+   
+<!--Social media icons in Footer-->    
+<div id="socialMedia">
+    <img src="images/fb-tw.jpg" alt="social media buttons" height= "100px" width= "200px">
+     
+</div> 
+    
+<!--Paragraph text in Footer-->    
+<p>&copy;2020 All Rights Reserved.<br>
+<a href="mailto:aiden.mace@pcc.edu">
+    aiden.mace@pcc.edu</a></p>
+
+<br>
+
+</footer>
+    
+<!--Javascript script tag for Navigation menu-->
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>  
+    
+</body>
+</html>

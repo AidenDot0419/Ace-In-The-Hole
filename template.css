@@ -1,0 +1,233 @@
+/*
+File Name: template.css
+Date: 07/27/2020
+*/
+
+
+* { box-sizing: border-box; }
+
+header, nav, main, footer { display: block; }
+
+body {
+    font-family: Open Sans, Arial, Tahoma;
+    font-size: 1em;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+/*Header styles*/
+header {
+    background-position: 5px;
+    background-color: black;
+    display: block;
+}
+
+h1 {
+    padding-top: 35px; padding-bottom: 35px;
+    background-color: white;
+    text-align: center; font-size: 2em;
+}
+ 
+/*h2 and paragraph styles*/
+h2, p { text-align: center; font-size: 1.5em; }
+
+h3 {
+    text-align: center;
+}
+
+/*Footer styles*/
+footer {
+    text-align: center;
+    background-color:  #ff0000;
+    padding-top: 15px;
+    font-size: 0.9em;
+    border: 3px solid black;
+    border-radius: 1px;
+}
+
+/*Link in footer to e-mail*/
+footer a { color: white; }
+
+/*Send us a Comment Form adjusted to smaller display and centered*/
+.form { width: 100px; margin-right: auto; margin-left: auto; 
+padding-right: 70px; }
+
+/*Adjust comment form in different displays*/
+fieldset {
+    padding: 10px;
+    margin-bottom: 32px;
+    margin-left: -118px;
+    border: 1px solid;
+    padding-bottom: 8px; 
+}
+
+/*Input info area box for comment form*/
+input { border-width: 1px;
+        padding-right: 74px;
+        padding-bottom: 7px;
+        margin-left: 4px;
+        margin-right: 75px;
+}
+
+/*Order Information box inside comment form*/
+textarea {
+    padding-left: 1px;
+    margin-left: 6px;
+    margin-bottom: 8px;
+}
+
+/*To center text of business name, address, and phone in Desktop display*/
+.contact { font-weight: bold; text-align: center; font-size: 1.3em; }
+
+/*To center text of business name, address, and phone in Desktop display for CONTACT PAGE*/
+#contact2 {
+    font-weight: none;
+    text-align: center; 
+    font-size: 1.6em;
+}
+
+/*Homepage text 'About section & Info' paragraph in Desktop display*/
+#thankyou { color: black; text-align: center; border: 3px solid black;  margin-left: 200px; margin-right: 200px; padding-left: 6px; padding-right: 2px; height: 140px; padding-top: 31px; border-radius: 25px; font-size: 1.4em; }
+
+/*To center the hero image*/
+#heroImage { 
+    background-position: center;
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: block;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+ display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: black;
+    
+    background-color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  margin-bottom: 21px;
+  margin-right: 20px;
+  margin-top: 35px;
+}
+
+/* Navigation, Style the hamburger menu */
+.topnav a.icon {
+  background: white;
+    
+  display: block;
+  position: absolute;
+  right: 4px;
+  top: -16px;
+}
+
+/* Navigation, Add a white background color on mouse-over */
+.topnav a:hover {
+  background-color: white;
+  color: #ff0000;
+}
+
+/* Navigation, Style the active link (or home/logo) */
+.active {
+  background-color: whitesmoke;
+  color: white;
+}
+
+
+
+
+
+
+/* Tablet display*/
+
+@media only screen and (max-width: 1024px) {
+    
+    body { padding: 0; margin: 0; background-image: none; }
+    
+    main { margin: 0; padding: 0; font-size: 90%; }
+    
+    /*h2 and paragraph styles*/
+    h2, p { font-size: 1.4em; }
+    
+    footer { margin: 0; font-size: 0.8em }
+    
+    /*To adjust business name, address, and phone text*/
+    .contact { text-align: center; font-size: 1.6em; }
+    
+    #heroImage { background-attachment: scroll; }
+    
+    #thankyou { text-align: center; border: 3px solid white;  margin-left: 100px; margin-right: 100px; padding-left: 6px; padding-right: 2px; margin-bottom: 1px; height: 140px; padding-top: 31px; font-size: 1.4em; }
+    
+  
+    
+}
+
+
+/* Smartphone display */
+    
+@media only all and (max-width: 768px) {
+    
+    h1 { height: 100%; font-size: 1.5em; padding-left: 0.3em; }
+    
+    /*h2 and paragraph styles*/
+    h2, p { font-size: 1.4em; }
+    
+    footer { font-size: 0.7em; }
+   
+    /*To adjust text in 'At Outside The Box Candle Shop' paragraph text*/
+    #thankyou { text-align: center; border: 1px solid white;  margin: 9px; padding: 10px;  }
+    
+    /*Adjust comment form in different displays*/
+    fieldset {
+        padding: 5px;
+        margin-bottom: 32px;
+        margin-left: -98px;
+        border: 1px solid;
+        padding-bottom: 8px; }
+    
+    /*Input info area box for comment form*/
+    input { 
+        border-width: 3px;
+        padding-right: 39px;
+        padding-bottom: 7px;
+        margin-left: 24px;
+        margin-right: 46px; }
+    
+    /*Order Information box inside comment form*/
+    textarea {
+        padding-left: 1px;
+        margin-left: 18px;
+        margin-bottom: 10px;
+    }
+    
+    /*To adjust business name, address, and phone text*/
+    .contact {
+        font-size: 1.8em;
+        
+        font-weight: bold;
+    }
+
+    /*Adjust the hero Image*/
+    #heroImage { 500px; width: auto; }
+    
+    
+    
+
+   
+    
+}
+ 
+
+
+
+
